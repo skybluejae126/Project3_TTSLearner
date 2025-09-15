@@ -1,0 +1,10 @@
+voicevox 도커 작동 : docker run --rm -p 50021:50021 voicevox/voicevox_engine:latest
+
+프론트엔드 실행 : 
+cd frontend
+npm install      # 처음 한 번만
+npm run dev
+
+백엔드 실행 : uvicorn main:app --reload
+
+chat save init 해둠
