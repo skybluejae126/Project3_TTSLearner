@@ -2,3 +2,14 @@ fastapi
 uvicorn[standard]
 requests
 pydantic
+rvc-python
+torch
+torchaudio
+ffmpeg-python
+numpy
+librosa
+transformers
+fastdtw
+scipy
+matplotlib
+soundfile
